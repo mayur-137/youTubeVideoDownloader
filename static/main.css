@@ -1,0 +1,34 @@
+.form-signin {
+    padding-bottom: 44px;
+    padding-top: 91px;
+    padding-left: 411px;
+    padding-right: 400px;
+    
+}
+
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+.img-thumnail{
+   	height: 175px;
+   	width: 350px;
+}
+
+
+.title-url{
+	padding-left: 370px;
+	padding-top: 22px;
+}
+
+.center-block{
+	margin-right: auto;
+}
+
+.w-100 {
+    width: 26%!important;
+}

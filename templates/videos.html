@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %} Videos Page {% endblock %}
+{% block head %}
+  <link rel="stylesheet" type="text/css" href="static/main.css">
+{% endblock %}
+{% block body %}
+	<img class="img-thumnail" src="{{img}}">
+	<br>
+	<br>
+	<p>{{title}}</p>
+	<br>
+	<a class="center-block w-100 btn btn-lg btn-primary " href="/Download-144p">144p</a><br><br>
+	<a class=" w-100 btn btn-lg btn-primary" href="/Download-360p">360p</a><br><br>
+	<a class=" w-100 btn btn-lg btn-primary" href="/Download-1080p">1080p</a><br><br>
+	<a class=" w-100 btn btn-lg btn-primary" href="/Download-audio">144p-audio</a><br><br>
+{% endblock %}

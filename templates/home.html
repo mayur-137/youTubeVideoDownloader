@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %} Home Page {% endblock %}
+{% block head %}
+  <link rel="stylesheet" type="text/css" href="static/main.css">
+{% endblock %}
+{% block body %}
+	<main class="form-signin">
+    
+  <form action="/Videos" method="POST">
+    <a href="https://Youtube.com/" target="_blank">
+    <img class="center" src="/static/YouTube-Logo.jpg" alt="" width="90" height="58"></a>
+    <h1 class="h3 mb-3 fw-normal">Paste Your Youtube Video Link </h1>
+    <br>
+    <div class="form-floating">
+      <input type="url" class="form-control" id="link" name="link" required>
+      <label for="floatingInput">Youtube Video Link</label>
+    </div>
+    <br>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Download now</button>
+    <p style="text-align: center;" class="mt-5 mb-3 text-muted">&copy; YouTube Video Downloader 2021-2022</p>
+  </form>
+</main>
+{% endblock %}
